@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  canvas {
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 15px;
+    transition: transform 0.2s ease;
+  }
+  
+  canvas:hover {
+    transform: scale(1.01);
+  }
+  
